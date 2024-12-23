@@ -1,0 +1,270 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+  font-family: Rubik;
+  }
+   .container {
+      max-width: 1140px;
+      width: 100%;
+      margin: 0 auto;
+      padding: 0 15px; 
+   }
+     .nav {
+      background: #3E8989;
+      padding: 37px 0 ;
+     } 
+   .gotrip_box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  
+    }
+    .gotrip_list {
+       display: flex;
+       gap: 30px;
+       list-style: none;
+        
+    }
+    .gotrip_link {
+     color: #FFFFFF;
+       font-family: Arial;
+       font-size: 16px;
+       font-weight: 500;
+       line-height: 18.96px;
+      text-decoration: none;
+       padding-bottom: 5px;
+       transition: 0.3ms; 
+    }
+      .gotrip_link:hover {
+       border-bottom: 3px solid white;
+       border-radius: 3px;
+       
+      }  
+      .intro {
+        background-image: url(../img/img.png);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 800px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+      }
+    .intro_text {
+     color: #FFFFFF;
+     font-family: Arial;
+     font-size: 80px;
+     font-weight: 600;
+     line-height: 94.8px;
+       margin-bottom: 20px;
+
+    }
+    .intro_ptext {
+     color: #FFFFFF;
+     font-family:   Arial;
+     font-size: 40px;
+      font-weight: 500;
+    line-height: 47.4px;
+    margin-bottom: 50px;
+   
+
+    }
+    .intro_link {
+     color: #FFFFFF;
+     font-family: Arial;
+       font-size: 18px;
+     font-weight: 600;
+    line-height: 21.78px;
+        text-decoration: none;
+        border-radius: 30px;
+      background-color: #B4436C;
+      padding: 14px 77px;
+    }
+      .intro_link:hover {
+        color: #B4436C;
+        background-color: #FFFFFF;
+      } 
+      .head_title {
+        color: #3E8989;
+        font-family: Arial;
+        font-size: 40px;
+        font-weight: 600;
+        line-height: 48.41px;
+        text-align: center;
+        margin-top: 80px;
+        margin-bottom: 50px;
+       text-align: center;
+     }
+        .about_box {
+           display: flex;
+           gap: 20px;
+        }
+        .about_textbox {
+           display: flex;
+           flex-direction: column;
+         justify-content: space-around;
+          
+        }
+        .about_ptext {
+        color: #000000;
+        font-family: Arial;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 21.33px;
+       text-align: left;
+     }
+        .catalog_box {
+           display: flex;
+           justify-content: space-between;
+        }
+        
+        
+          .catalog_link:hover> a {
+           color: #B4436C;
+          }
+         
+     .catalog_title {
+        color: #3E8989;
+        font-family: Arial;
+       font-size: 40px;
+      font-weight: 600;
+     line-height: 48.41px;
+   text-align: center;
+   margin-top: 97px;
+   margin-bottom: 52px;
+      }
+      .catalog_img {
+        display: block;
+      }
+      .catalog_link1 {
+        color: #000000;
+        font-family: Arial;
+       font-size: 24px;
+       font-weight: 600;
+       line-height: 29.05px;
+       text-decoration: none;
+       display: block;
+       text-align: center;
+       margin-top: 30px;
+      }
+      .contact_title {
+         color: #3E8989;
+         font-family: Arial;
+     font-size: 40px;
+     font-weight: 600;
+     line-height: 48.41px;
+      margin-top: 100px;
+      margin-bottom: 50px;
+      }
+       .contact_text {
+        color: #000000;
+        font-family: Arial;
+    font-size: 20px;
+    font-weight: 400;
+      line-height: 23.7px;
+  text-decoration: none;
+   
+       }
+       .contact_list {
+        list-style: none;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+       }
+       .contact_box {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 104px;
+
+       }
+           .footer_box {
+              display: flex;
+              flex-direction: column;
+            align-items: center;
+            gap: 59px;
+           }
+       .footer{
+           background: #3E8989;
+           padding-top: 40px;
+           padding-bottom: 15px;
+         
+          }
+        .footer_list {
+           display: flex;
+           gap: 30px;
+           list-style: none;
+         }
+       .footer_link {
+        color: #FFFFFF;
+        font-family: Arial;
+       font-size: 16px;
+      font-weight: 500;
+        line-height: 18.96px;
+        text-decoration: none;
+
+        
+       }
+        .footer_ptext {
+           color: #FFFFFF;
+           font-family: Arial;
+        font-size: 14px;
+      font-weight: 400;
+       line-height: 16.59px;
+
+        }
+        .gotrip_form {
+            display: flex;
+            
+           }
+         .gotrip_input {
+             padding: 8px 0 8px 20px;
+             border-top-left-radius: 20px;
+             border-bottom-left-radius: 20px;
+              border: none;
+              outline: none;
+              color: black;
+            }
+            .gotrip_input::placeholder {
+              color:#898989;
+font-size: 16px;
+font-weight: 400;
+line-height: 18.96px;
+
+
+            }
+            button {
+              padding: 9px 14px;
+              border-top-right-radius: 20px;
+              border-bottom-right-radius: 20px;
+              border: none;
+               background-color: #295E5E;
+              color: #FFFFFF;
+                font-size: 14px;
+                   font-weight: 400;
+                    line-height: 16.59px;
+             
+            }
+            .catalog_link{
+             margin: 0 auto;
+            }
+            .poisik{
+            display: none;
+            }
+            .catalog_img{
+              max-width: 263px;
+              width: 100%;
+
+          }
+          .catalog_box{
+            gap: 10px;
+          }
+          .menu{
+           width: 30px;
+           display: none;
+          }
+          .checkbox{
+            display: none;
+          }

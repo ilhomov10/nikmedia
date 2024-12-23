@@ -1,0 +1,162 @@
+@media(max-width:1140px){
+    .intro{
+        width: 100%;
+    }
+    .about_box{ 
+        width: 100%;
+    }
+}
+@media(max-width:1085px){
+    .catalog_box{
+        display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      justify-content: center;
+    }
+}
+@media(max-width:1085px){
+   .intro_text{
+    font-size: 70px;
+   }
+   .intro_ptext{
+    font-size: 35px;
+    margin-bottom: 40px;
+   }
+  .intro_link{
+    font-size: 17px;
+  }
+  .head_title{
+    margin-top: 70px;
+    margin-bottom: 40px;
+  }
+  .catalog_title{
+    margin-top: 90px;
+    margin-bottom: 48px;
+  }
+  .contact_title{
+    margin-top: 90px;
+    margin-bottom: 40px;
+  }
+  .catalog_link1{
+    margin-top: 15px;
+    margin-bottom: 20px;
+  }
+}
+@media(max-width:850px){
+    .about_box{
+     flex-direction: column;
+    }
+    .catalog_title{
+        margin-top: 70px;
+        margin-bottom: 50px;
+    }
+    .contact_title{
+        margin-top: 70px;
+    }
+    .contact_box{
+        margin-bottom: 80px;
+    }
+    .head_title{
+        font-size: 35px;
+        margin-top: 50px;
+    }
+    .intro_text{
+        font-size: 60px;
+        margin-bottom: 15px;
+    }
+    .intro_ptext{
+        font-size: 30px;
+        margin-bottom: 30px
+    }
+    .intro_link{
+        padding: 12px 74px;
+        font-size: 15px;
+    }
+    .catalog_title{
+        font-size: 35px;
+        margin-top:50px ;
+    }
+    .contact_title{
+        font-size: 35px;
+        margin-top: 50px;
+    }
+    .contact_box{
+     margin-bottom: 70px;
+    }
+    .about_ptext{
+        margin: 5px;
+    }
+    .catalog_link1{
+        font-size: 23px;
+    }
+}
+@media(max-width:800px){
+    .contact_box{
+        flex-direction: column;
+        gap: 20px;
+    }
+    .footer_box{
+        gap: 40px;
+    }
+}
+@media(max-width:650px){
+    .gotrip_form{
+        display: none;
+    }
+    .poisik{
+        display: block;
+        position: absolute;
+        right: 45px;
+    }
+    .menu{
+      display: block; 
+    }
+    .gotrip_poisk{
+        display: none;
+    }
+    .gotrip_box{
+        position: relative;
+    }
+    .gotrip_list{
+       display: none;
+       
+    }
+    .intro_text{
+        font-size: 50px;
+        margin-bottom: 10px;
+    }
+   .intro_link{
+    padding: 10px 72px;
+    font-size: 13px;
+   }
+   .head_title{
+    margin-top: 45px;
+    margin-bottom: 35px;
+    font-size: 30px;
+}
+.about_ptext{
+    font-size: 17px;
+}
+.catalog_title{
+    font-size: 30px;
+    margin-top: 45px;
+}
+.contact_title{
+    font-size: 30px;
+    margin-top: 45px
+}
+.contact_text{
+    font-size: 17px;
+    margin-bottom: 30px;
+}
+.contact_box{
+    gap: 5px;
+    margin-bottom: 50px;
+}
+}
+@media(max-width:370px){
+    .intro_ptext{
+       font-size: 25px;
+        
+    }
+}
+
